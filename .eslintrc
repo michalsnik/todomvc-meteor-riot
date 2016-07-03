@@ -1,0 +1,18 @@
+{
+  "plugins": [
+    "meteor"
+  ],
+  "extends": [
+    "airbnb",
+    "plugin:meteor/recommended"
+  ],
+  "parserOptions": {
+    "ecmaVersion": 6,
+    "sourceType": "module"
+  },
+  "rules": {
+    "import/no-unresolved": 0,
+    "no-underscore-dangle": 0,
+    "prefer-arrow-callback": 1
+  }
+}
